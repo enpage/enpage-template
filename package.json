@@ -1,7 +1,36 @@
 {
-  "name": "enpage-template",
-  "version": "0.0.1",
+  "name": "@enpage/template-example",
+  "version": "0.0.10",
   "description": "",
-  "main": "index.js",
-  "scripts": {}
+  "type": "module",
+  "exports": {
+    ".": "./dist",
+    "./package.json": "./package.json",
+    "./enpage.config.js": "./enpage.config.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ep-ctrl dev",
+    "build-template": "ep-ctrl build",
+    "preview": "ep-ctrl preview"
+  },
+  "devDependencies": {
+    "cssnano": "7.0.1",
+    "postcss-import": "16.1.0",
+    "postcss-preset-env": "9.5.14",
+    "vite": "5.2.11",
+    "zod": "3.23.8"
+  },
+  "dependencies": {
+    "@enpage/sdk": "latest",
+    "@enpage/style-system": "latest",
+    "@enpage/template-utils": "latest",
+    "@enpage/types": "latest",
+    "tailwindcss": "3.4.3",
+    "zod": "3.23.8"
+  },
+  "keywords": [],
+  "author": "John Doe",
+  "license": "UNLICENSED",
+  "private": true
 }
