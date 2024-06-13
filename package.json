@@ -1,6 +1,6 @@
 {
-  "name": "@enpage/template-example",
-  "version": "0.0.10",
+  "name": "enpage-template-example",
+  "version": "0.0.1",
   "description": "",
   "type": "module",
   "exports": {
@@ -32,5 +32,9 @@
   "keywords": [],
   "author": "John Doe",
   "license": "UNLICENSED",
-  "private": true
+  "stackblitz": {
+    "startCommand": "npm start",
+    "file": "index.html",
+    "title": "Enpage Template Example"
+  }
 }
