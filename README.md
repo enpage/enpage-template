@@ -1,3 +1,8 @@
+> [!WARNING]  
+> Obsolete - Moved to @enpage/template-example in our [monorepo](https://github.com/enpage/enpage)
+
+---
+
 # Enpage template how-to
 
 > This is a simple template example to help you get started with Enpage templates.
